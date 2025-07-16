@@ -15,7 +15,7 @@ function App() {
     <div className="App">
       <Header />
       <Body deptName={dept} location="강남" deptNo="한글" />
-      <SubCon subp = {SubProps} />
+      {/* <SubCon subp = {SubProps} /> */}
       <subCon {...SubProps}>
         <p style={{backgroundColor : "red", color: "#fff"}}>
           부모App컴포넌트에서 전달하는 p태그</p>
